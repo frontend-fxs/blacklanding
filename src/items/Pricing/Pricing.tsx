@@ -42,8 +42,6 @@ export interface SignalLandingProps {
 
 const Pricing = ({ Products }: SignalLandingProps) => {
   const hasPromotion = true;
-  const isBlackFriday = false;
-  const isCyber = false;
   return (
     <PricingSection id="pricing" className="fxs_txt_center fxs_bg_lightest_clr" hasPromotion>
       <BlackFridayWrapper hasPromotion>
